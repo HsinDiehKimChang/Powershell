@@ -423,7 +423,7 @@ $RequestorText = $Requestor.test
 
     Enable-csuser -identity ($InputAlias.Text) -registrarpool $Registrar -sipaddresstype EmailAddress
 
-    $BesPassword	= 'imsR0gers02'
+    $BesPassword	= 'password'
 
     $FullAdd = $InputAlias.Text + $strMX
 
